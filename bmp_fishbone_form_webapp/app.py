@@ -30,7 +30,7 @@ if submitted:
     ax.plot([0.5, 0.6], [0.5, 0.6], 'k', lw=2)
     ax.plot([0.5, 0.6], [0.5, 0.4], 'k', lw=2)
 
-    fontsize = 50
+    fontsize = 47
     ax.text(0.25, 0.52, f"{na:g}", ha='center', fontsize=fontsize)
     ax.text(0.35, 0.52, f"{cl:g}", ha='center', fontsize=fontsize)
     ax.text(0.45, 0.52, f"{bun:g}", ha='center', fontsize=fontsize)
